@@ -1,0 +1,335 @@
+
+node liri.js concert-this pink
+https://rest.bandsintown.com/artists/pink/events?app_id=codingbootcamp20Name of the Venue: La Defense Arena
+Venue Location: Paris  France
+Date of the Event: 07/03/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/05/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/06/2019
+Name of the Venue: Volksparkstadion
+Venue Location: Hamburg  Germany
+Date of the Event: 07/08/2019
+Name of the Venue: Mercedes-Benz Arena
+Venue Location: Stuttgart  Germany
+Date of the Event: 07/10/2019
+Name of the Venue: HDI Arena
+Venue Location: Hannover  Germany
+Date of the Event: 07/12/2019
+Name of the Venue: Olympiastadion
+Venue Location: Berlin  Germany
+Date of the Event: 07/14/2019
+Name of the Venue: PGE Narodowy Stadium
+Venue Location: Warsaw  Poland
+Date of the Event: 07/20/2019
+Name of the Venue: Commerzbank-Arena
+Venue Location: Frankfurt Am Main  Germany
+Date of the Event: 07/22/2019
+Name of the Venue: Ernst Happel Stadium
+Venue Location: Wien  Austria
+Date of the Event: 07/24/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/26/2019
+Name of the Venue: Letzigrund Stadium
+Venue Location: Zurich  Switzerland
+Date of the Event: 07/30/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/27/2019
+Name of the Venue: Tele2 Arena
+Venue Location: Stockholm  Sweden
+Date of the Event: 08/03/2019
+Name of the Venue: Telenor Arena
+Venue Location: Oslo  Norway
+Date of the Event: 08/05/2019
+Name of the Venue: Stadium Casa Arena
+Venue Location: Horsens  Denmark
+Date of the Event: 08/07/2019
+Name of the Venue: Malieveld Pavillion
+Venue Location: Den Haag  Netherlands
+Date of the Event: 08/11/2019
+Name of the Venue: VELTINS-Arena
+Venue Location: Ge  Germany
+Date of the Event: 08/09/2019
+Name of the Venue: Rock in Rio
+Venue Location: Rio De Janeiro  Brazil
+Date of the Event: 10/05/2019
+Name of the Venue: Circuit Of the Americas
+Venue Location: Austin TX United States
+Date of the Event: 11/02/2019
+
+node liri.js concert-this pink
+https://rest.bandsintown.com/artists/pink/events?app_id=codingbootcamp
+20Name of the Venue: La Defense Arena
+Venue Location: Paris  France
+Date of the Event: 07/03/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/05/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/06/2019
+Name of the Venue: Volksparkstadion
+Venue Location: Hamburg  Germany
+Date of the Event: 07/08/2019
+Name of the Venue: Mercedes-Benz Arena
+Venue Location: Stuttgart  Germany
+Date of the Event: 07/10/2019
+Name of the Venue: HDI Arena
+Venue Location: Hannover  Germany
+Date of the Event: 07/12/2019
+Name of the Venue: Olympiastadion
+Venue Location: Berlin  Germany
+Date of the Event: 07/14/2019
+Name of the Venue: PGE Narodowy Stadium
+Venue Location: Warsaw  Poland
+Date of the Event: 07/20/2019
+Name of the Venue: Commerzbank-Arena
+Venue Location: Frankfurt Am Main  Germany
+Date of the Event: 07/22/2019
+Name of the Venue: Ernst Happel Stadium
+Venue Location: Wien  Austria
+Date of the Event: 07/24/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/26/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/27/2019
+Name of the Venue: Letzigrund Stadium
+Venue Location: Zurich  Switzerland
+Date of the Event: 07/30/2019
+Name of the Venue: Tele2 Arena
+Venue Location: Stockholm  Sweden
+Date of the Event: 08/03/2019
+Name of the Venue: Telenor Arena
+Venue Location: Oslo  Norway
+Date of the Event: 08/05/2019
+Name of the Venue: Stadium Casa Arena
+Venue Location: Horsens  Denmark
+Date of the Event: 08/07/2019
+Name of the Venue: VELTINS-Arena
+Venue Location: Ge  Germany
+Date of the Event: 08/09/2019
+Name of the Venue: Malieveld Pavillion
+Venue Location: Den Haag  Netherlands
+Date of the Event: 08/11/2019
+Name of the Venue: Rock in Rio
+Venue Location: Rio De Janeiro  Brazil
+Date of the Event: 10/05/2019
+Name of the Venue: Circuit Of the Americas
+Venue Location: Austin TX United States
+Date of the Event: 11/02/2019
+
+Process the command ->  node liri.js concert-this pink
+https://rest.bandsintown.com/artists/pink/events?app_id=codingbootcamp
+20Name of the Venue: La Defense Arena
+Venue Location: Paris  France
+Date of the Event: 07/03/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/05/2019
+Name of the Venue: Volksparkstadion
+Venue Location: Hamburg  Germany
+Date of the Event: 07/08/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/06/2019
+Name of the Venue: Mercedes-Benz Arena
+Venue Location: Stuttgart  Germany
+Date of the Event: 07/10/2019
+Name of the Venue: HDI Arena
+Venue Location: Hannover  Germany
+Date of the Event: 07/12/2019
+Name of the Venue: Olympiastadion
+Venue Location: Berlin  Germany
+Date of the Event: 07/14/2019
+Name of the Venue: PGE Narodowy Stadium
+Venue Location: Warsaw  Poland
+Date of the Event: 07/20/2019
+Name of the Venue: Commerzbank-Arena
+Venue Location: Frankfurt Am Main  Germany
+Date of the Event: 07/22/2019
+Name of the Venue: Ernst Happel Stadium
+Venue Location: Wien  Austria
+Date of the Event: 07/24/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/26/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/27/2019
+Name of the Venue: Letzigrund Stadium
+Venue Location: Zurich  Switzerland
+Date of the Event: 07/30/2019
+Name of the Venue: Tele2 Arena
+Venue Location: Stockholm  Sweden
+Date of the Event: 08/03/2019
+Name of the Venue: Telenor Arena
+Venue Location: Oslo  Norway
+Date of the Event: 08/05/2019
+Name of the Venue: Stadium Casa Arena
+Venue Location: Horsens  Denmark
+Date of the Event: 08/07/2019
+Name of the Venue: VELTINS-Arena
+Venue Location: Ge  Germany
+Date of the Event: 08/09/2019
+Name of the Venue: Malieveld Pavillion
+Venue Location: Den Haag  Netherlands
+Date of the Event: 08/11/2019
+Name of the Venue: Rock in Rio
+Venue Location: Rio De Janeiro  Brazil
+Date of the Event: 10/05/2019
+Name of the Venue: Circuit Of the Americas
+Venue Location: Austin TX United States
+Date of the Event: 11/02/2019
+
+Process the command ->  node liri.js concert-this pink
+https://rest.bandsintown.com/artists/pink/events?app_id=codingbootcamp
+20
+Name of the Venue: La Defense Arena
+Venue Location: Paris  France
+Date of the Event: 07/03/2019
+
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/05/2019
+
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/06/2019
+
+Name of the Venue: Volksparkstadion
+Venue Location: Hamburg  Germany
+Date of the Event: 07/08/2019
+
+Name of the Venue: Mercedes-Benz Arena
+Venue Location: Stuttgart  Germany
+Date of the Event: 07/10/2019
+
+Name of the Venue: HDI Arena
+Venue Location: Hannover  Germany
+Date of the Event: 07/12/2019
+
+Name of the Venue: Olympiastadion
+Venue Location: Berlin  Germany
+Date of the Event: 07/14/2019
+
+Name of the Venue: PGE Narodowy Stadium
+Venue Location: Warsaw  Poland
+Date of the Event: 07/20/2019
+
+Name of the Venue: Commerzbank-Arena
+Venue Location: Frankfurt Am Main  Germany
+Date of the Event: 07/22/2019
+
+Name of the Venue: Ernst Happel Stadium
+Venue Location: Wien  Austria
+Date of the Event: 07/24/2019
+
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/26/2019
+
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/27/2019
+
+Name of the Venue: Letzigrund Stadium
+Venue Location: Zurich  Switzerland
+Date of the Event: 07/30/2019
+
+Name of the Venue: Tele2 Arena
+Venue Location: Stockholm  Sweden
+Date of the Event: 08/03/2019
+
+Name of the Venue: Telenor Arena
+Venue Location: Oslo  Norway
+Date of the Event: 08/05/2019
+
+Name of the Venue: Stadium Casa Arena
+Venue Location: Horsens  Denmark
+Date of the Event: 08/07/2019
+
+Name of the Venue: VELTINS-Arena
+Venue Location: Ge  Germany
+Date of the Event: 08/09/2019
+
+Name of the Venue: Malieveld Pavillion
+Venue Location: Den Haag  Netherlands
+Date of the Event: 08/11/2019
+
+Name of the Venue: Rock in Rio
+Venue Location: Rio De Janeiro  Brazil
+Date of the Event: 10/05/2019
+
+Name of the Venue: Circuit Of the Americas
+Venue Location: Austin TX United States
+Date of the Event: 11/02/2019
+
+Process the command ->  node liri.js concert-this pink
+https://rest.bandsintown.com/artists/pink/events?app_id=codingbootcamp
+20
+Name of the Venue: La Defense Arena
+Venue Location: Paris  France
+Date of the Event: 07/03/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/05/2019
+Name of the Venue: Rhein Energie Stadion
+Venue Location: Cologne  Germany
+Date of the Event: 07/06/2019
+Name of the Venue: Volksparkstadion
+Venue Location: Hamburg  Germany
+Date of the Event: 07/08/2019
+Name of the Venue: Mercedes-Benz Arena
+Venue Location: Stuttgart  Germany
+Date of the Event: 07/10/2019
+Name of the Venue: HDI Arena
+Venue Location: Hannover  Germany
+Date of the Event: 07/12/2019
+Name of the Venue: Olympiastadion
+Venue Location: Berlin  Germany
+Date of the Event: 07/14/2019
+Name of the Venue: PGE Narodowy Stadium
+Venue Location: Warsaw  Poland
+Date of the Event: 07/20/2019
+Name of the Venue: Commerzbank-Arena
+Venue Location: Frankfurt Am Main  Germany
+Date of the Event: 07/22/2019
+Name of the Venue: Ernst Happel Stadium
+Venue Location: Wien  Austria
+Date of the Event: 07/24/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/26/2019
+Name of the Venue: Olympiastadion Munchen
+Venue Location: Munchen  Germany
+Date of the Event: 07/27/2019
+Name of the Venue: Letzigrund Stadium
+Venue Location: Zurich  Switzerland
+Date of the Event: 07/30/2019
+Name of the Venue: Tele2 Arena
+Venue Location: Stockholm  Sweden
+Date of the Event: 08/03/2019
+Name of the Venue: Telenor Arena
+Venue Location: Oslo  Norway
+Date of the Event: 08/05/2019
+Name of the Venue: Stadium Casa Arena
+Venue Location: Horsens  Denmark
+Date of the Event: 08/07/2019
+Name of the Venue: VELTINS-Arena
+Venue Location: Ge  Germany
+Date of the Event: 08/09/2019
+Name of the Venue: Malieveld Pavillion
+Venue Location: Den Haag  Netherlands
+Date of the Event: 08/11/2019
+Name of the Venue: Rock in Rio
+Venue Location: Rio De Janeiro  Brazil
+Date of the Event: 10/05/2019
+Name of the Venue: Circuit Of the Americas
+Venue Location: Austin TX United States
+Date of the Event: 11/02/2019
