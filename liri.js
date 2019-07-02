@@ -5,11 +5,11 @@ var axios = require("axios");
 var moment = require("moment");
 var keys = require("./keys.js");
 
-var commandsForLogging = "\nProcess the command ->  node liri.js ";
+var commandsForLogging = "\nProcess the command ->>>  node liri.js ";
 
 var spot = new spotify(keys.spotify);
 var action = process.argv[2];
-var value = process.argv[3];
+var value = process.argv.slice(3).join(" ");
 logging(commandsForLogging + process.argv.slice(2).join(" ") + "\n");
 
 // writing data into a log file while displaying it on the console
@@ -26,15 +26,15 @@ function logging(data) {
 
 function concertThis() {
   var queryUrl = "https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp";
-  logging("queryUrl -> " + queryUrl + "\n");
+  logging("queryUrl ->>> " + queryUrl + "\n");
   axios.get(queryUrl).then(
     function (response) {
-      // console.log(JSON.stringify(response.data, null, 2));s
+      // console.log(JSON.stringify(response.data, null, 2));
       for (var i = 0; i < response.data.length; i++) {
         logging(
-          "\nName of the Venue: " + response.data[i].venue.name + "\n" +
+          "Name of the Venue: " + response.data[i].venue.name + "\n" +
           "Venue Location: " + response.data[i].venue.city + " " + response.data[i].venue.region + " " + response.data[i].venue.country + "\n" +
-          "Date of the Event: " + moment(response.data[i].datetime).format("MM/DD/YYYY")
+          "Date of the Event: " + moment(response.data[i].datetime).format("MM/DD/YYYY") + "\n"
         );
       }
     })
@@ -54,42 +54,47 @@ function concertThis() {
         logging(error.request);
       } else {
         // Something happened in setting up the request that triggered an Error
-        logging("Error " + error.message);
+        logging("Error: " + error.message);
       }
       logging(error.config);
     });
 }
 
 function spotifyThisSong() {
-  spot.search({ type: 'track', query: value }, function (err, response) {
+  //if no song is provided, the depaul value is The Sign
+  if (value.trim().length === 0) {
+    value = "The Sign Ace of Base";
+    logging("If no song is provided, using The Sign by Ace of Base instead\n");
+  }
+  spot.search({ type: 'track', query: value, limit: 1 }, function (err, response) {
     if (err) {
       return logging('Error occurred: ' + err);
     }
 
-    logging(JSON.stringify(response, null, 2));
-    for (var i = 0; i < response.tracks.items[i].album.artists.length; i++) {
-      logging(
-        "\nArtist: " + response.tracks.items[i].album.artists[0].name + " \n" +
-        "Song: " + response.tracks.items[i].album.name + " \n" +
-        "URL: " + response.tracks.items[i].album.external_urls.spotify + " \n" +
-        "Album source: " + response.tracks.items[i].album.artists[0].name + " \n"
-      );
-    }
+    // logging(JSON.stringify(response, null, 2));
+    logging(
+      "Artist: " + response.tracks.items[0].album.artists[0].name + " \n" +
+      "The Song's name: " + response.tracks.items[0].name + " \n" +
+      "A preview link of the song from Spotify URL: " + response.tracks.items[0].preview_url + " \n" +
+      "The album that the song is from: " + response.tracks.items[0].album.name + " \n" +
+      "The Song's Spotify URL: " + response.tracks.items[0].album.external_urls.spotify + " \n"
+    );
   });
 }
 
 function movieThis() {
-  // if (value.length === 0) {
-  //   value = "Mr. Nobody";
-  // }
-  var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy";
+  //if movie was empty, depaul value is Mr. Nobody
+  if (value.trim().length === 0) {
+    value = "Mr. Nobody";
+    logging("The movie name was not applied, using Mr. Nobody instead\n");
+  }
 
-  // This line is just to help us debug against the actual URL.
+  var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy";
   logging(queryUrl);
 
   axios.get(queryUrl).then(
     function (response) {
-      logging(JSON.stringify(response.data, null, 2));
+      // logging(JSON.stringify(response.data, null, 2));
       var imdbRating = "N/A";
       var rottenTomatoesRating = "N/A";
       for (var i in response.data.Ratings) {
@@ -127,7 +132,7 @@ function movieThis() {
         logging(error.request);
       } else {
         // Something happened in setting up the request that triggered an Error
-        logging("Error " + error.message);
+        logging("Error: " + error.message);
       }
       logging(error.config);
     });
@@ -140,7 +145,7 @@ function doWhatItSays() {
     }
     // Then split it by commas (to make it more readable)
     var dataArr = data.split(",");
-    logging(dataArr);
+    logging(dataArr + "\n");
     action = dataArr[0];
     value = dataArr[1];
     processAction();
