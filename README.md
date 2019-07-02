@@ -7,8 +7,7 @@ LIRI Bot
 
 *   LIRI Bot is a node server side project. It is to search spotify for songs, Bands in Town for concerts and OMDB for movies.
 
-*   node liri.js do-what-it-says
-*   for do-what-it-says, copy the following commands into random.txt
+*   node liri.js do-what-it-says // for do-what-it-says, copy the following commands into random.txt
     *   concert-this,Carly Rae Jepsen
     *   spotify-this-song,Cut To The Feeling
     *   spotify-this-song,I want it That way
@@ -21,7 +20,7 @@ LIRI Bot
 *   node liri.js movie-this "The Grinch"
 *   node liri.js movie-this
 
-All the output are displayed in the console and wrote into log.txt
+All the output are displayed in the console and written into log.txt
 
 
 
