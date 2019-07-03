@@ -8,7 +8,7 @@ var keys = require("./keys.js");
 var commandsForLogging = "\nProcess the command ->>>  node liri.js ";
 
 var spot = new spotify(keys.spotify);
-var action = process.argv[2];
+var action = process.argv[2].toLowerCase();
 var value = process.argv.slice(3).join(" ");
 logging(commandsForLogging + process.argv.slice(2).join(" ") + "\n");
 
