@@ -11,7 +11,7 @@ LIRI Bot
     *   concert-this,Carly Rae Jepsen
         ![node-image1](images/node1.jpg)
     *   spotify-this-song,Cut To The Feeling
-        ![node-image2](images/node2jpg)
+        ![node-image2](images/node2.jpg)
     *   spotify-this-song,I want it That way
         ![node-image3](images/node3.jpg)
     *   movie-this,The Grinch
