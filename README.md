@@ -9,7 +9,7 @@ LIRI Bot
 
 *   node liri.js do-what-it-says // for do-what-it-says, copy the following commands into random.txt
     *   concert-this,Carly Rae Jepsen
-        ![node-image1](images/node1-node liri.js do-what-it-says.jpg)
+        ![node-image1](images/node1.jpg)
     *   spotify-this-song,Cut To The Feeling
         ![node-image2](./images/node2-node liri.js do-what-it-says.jpg)
     *   spotify-this-song,I want it That way
