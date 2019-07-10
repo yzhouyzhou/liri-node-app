@@ -11,24 +11,24 @@ LIRI Bot
     *   concert-this,Carly Rae Jepsen
         ![node-image1](images/node1.jpg)
     *   spotify-this-song,Cut To The Feeling
-        ![node-image2](./images/node2-node liri.js do-what-it-says.jpg)
+        ![node-image2](images/node2jpg)
     *   spotify-this-song,I want it That way
-        ![node-image3](./images/node3-node liri.js do-what-it-says.jpg)
+        ![node-image3](images/node3.jpg)
     *   movie-this,The Grinch
-        ![node-image4](./images/node4-node liri.js do-what-it-says.jpg)
+        ![node-image4](images/node4.jpg)
     *   movie-this,The Notebook
-        ![node-image5](./images/node5-node liri.js do-what-it-says.jpg)
+        ![node-image5](images/node5.jpg)
 
 *   node liri.js concert-this pink
-    ![node-image6](./images/node6-node liri.js concert-this pink.jpg)
+    ![node-image6](images/node6.jpg)
 *   node liri.js spotify-this-song "I want it That way"
-    ![node-image7](./images/node7-node liri.js spotify-this-song I want it That way.jpg)
+    ![node-image7](images/node7.jpg)
 *   node liri.js spotify-this-song
-    ![node-image8](./images/node8-node liri.js spotify-this-song.jpg)
+    ![node-image8](images/node8.jpg)
 *   node liri.js movie-this "The Grinch"
-    ![node-image9](./images/node9-node liri.js movie-this The Grinch.jpg)
+    ![node-image9](images/node9.jpg)
 *   node liri.js movie-this
-    ![node-image10](./images/node10-node liri.js movie-this.jpg)
+    ![node-image10](images/node10.jpg)
     
 
 All the output are displayed in the console and written into log.txt
